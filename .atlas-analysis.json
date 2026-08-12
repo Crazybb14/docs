@@ -1,27 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "Unblockedgames",
+  "projectType": "saas",
+  "projectName": "Unblockedgames",
+  "projectDescription": "A browser-based unblocked games platform with 100+ free games playable directly in your browser, featuring popular titles like Slope, Minecraft, Retro Bowl, and 1v1.lol.",
   "theme": "almond",
-  "favicon": "https://media.brand.dev/de33c79e-94af-4e93-941d-5b4597d432c0.png",
-  "colors": {
-    "primary": "#d45e59",
-    "light": "#375259",
-    "dark": "#e6e7e8"
-  },
-  "fonts": {
-    "heading": {
-      "family": "Karla"
-    },
-    "body": {
-      "family": "Karla"
-    }
-  },
-  "navbar": {
-    "primary": {
-      "type": "github",
-      "href": "https://github.com/Crazybb14/unblockedgames"
-    }
-  },
+  "primaryColor": "#d45e59",
+  "lightColor": "#375259",
+  "darkColor": "#e6e7e8",
   "navigation": {
     "tabs": [
       {
@@ -100,5 +84,24 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "100+ browser-based games playable instantly with no download or login required",
+    "Search bar for quickly finding games by name",
+    "Category filters: Popular, Two Player, Streaming, and more",
+    "Flash game support via Ruffle WebAssembly emulator",
+    "Unity WebGL games running natively in the browser",
+    "Two-player local multiplayer for select games",
+    "Streaming integrations (movies and TV)",
+    "Works on school and work networks (unblocked)",
+    "Mobile-friendly responsive layout",
+    "Community feedback channel via Discord"
+  ],
+  "publicApiSurface": [
+    "Search filter: text-based game search via search bar",
+    "Category filter: All / Popular / Two Player / Streaming / Bad Games",
+    "Game URL pattern: /play/<game-slug>/",
+    "Discord community: https://discord.gg/xksWyP9aJv",
+    "GitHub issue templates: bug report, game request, other"
+  ]
 }

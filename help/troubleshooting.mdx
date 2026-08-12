@@ -1,0 +1,71 @@
+---
+title: "Troubleshooting Games on Unblockedgames"
+sidebarTitle: "Troubleshooting"
+description: "Fix common issues with Unblockedgames — games not loading, black screens, Flash not working, Unity WebGL errors, and performance problems."
+---
+
+Most issues with Unblockedgames are straightforward to fix. Work through the relevant section below and you should be back in the game in a few minutes.
+
+<AccordionGroup>
+  <Accordion title="Game won't load / black screen">
+    A black screen usually means the page didn't finish loading or a browser extension interrupted it. Try these steps in order:
+
+    1. **Hard-refresh the tab:** Press **Ctrl+Shift+R** on Windows/Linux or **Cmd+Shift+R** on Mac to bypass the cache and reload from scratch.
+    2. **Check that JavaScript is enabled** in your browser settings — all games require it.
+    3. **Try a different browser** — Chrome is the most compatible option.
+    4. **Disable browser extensions**, especially ad blockers. They sometimes block game scripts or assets. You can temporarily disable them for the Unblockedgames tab and then reload.
+  </Accordion>
+
+  <Accordion title="Flash game shows a blank area or error">
+    Flash games on Unblockedgames use the **Ruffle emulator** — you do not need Adobe Flash Player. If a Flash game is showing a blank area or an error:
+
+    - Make sure **JavaScript is enabled**, since Ruffle loads via JavaScript.
+    - Some older or more complex Flash games are not yet fully supported by Ruffle. If a specific title consistently fails, it may have limited emulator support at this time.
+    - Try **Chrome or Firefox** for the best Flash emulation compatibility.
+  </Accordion>
+
+  <Accordion title="Unity WebGL game is slow or stuttering">
+    Unity WebGL games are more resource-intensive than Flash or HTML5 titles. If you're experiencing lag or stuttering:
+
+    - **Close other browser tabs** to free up RAM and GPU memory.
+    - Make sure you're on a **modern computer** — older hardware may struggle with Unity games.
+    - Set your **browser zoom level to 100%** (Ctrl+0 / Cmd+0) — non-standard zoom can cause rendering issues.
+    - If visuals are glitching, try **disabling hardware acceleration**: go to your browser settings → Advanced → System → toggle off "Use hardware acceleration when available," then relaunch the browser.
+  </Accordion>
+
+  <Accordion title="Game is stuck on a loading screen">
+    Some games — especially larger Unity WebGL titles like Slope and Minecraft — need time to download assets before they start. Wait **30–60 seconds** on the loading screen before assuming something is wrong.
+
+    If the loading bar stops moving entirely:
+    - Check your **internet connection**.
+    - **Refresh the tab** and let it load again from the beginning.
+    - If the problem persists across multiple refreshes, the game's asset files may be temporarily unavailable — try again later.
+  </Accordion>
+
+  <Accordion title="Keyboard controls aren't working">
+    If pressing keys has no effect inside a game, the game window likely doesn't have focus:
+
+    - **Click directly inside the game window** first, then try your keyboard inputs. Many browser games only capture keyboard events when the game element is focused.
+    - Avoid clicking outside the game frame (on the browser address bar or another tab) right before playing, as this removes focus from the game.
+  </Accordion>
+
+  <Accordion title="Game audio isn't working">
+    If a game has no sound, check the following:
+
+    - **Check your device volume** and make sure it isn't muted.
+    - **Click inside the game window** — browsers automatically mute tabs that haven't received direct user interaction yet. A click inside the game often triggers audio to start.
+    - Look for a **muted speaker icon** in the browser tab bar. Right-click the tab and select "Unmute site" if it appears.
+  </Accordion>
+
+  <Accordion title="Site is blocked on my school or work network">
+    Unblockedgames is hosted on **GitHub Pages** (a `github.io` domain), which most network filters permit by default. If the site is blocked on your network:
+
+    - The network administrator may have added `github.io` to a blocklist — you would need to request an exception through your school's or workplace's IT process.
+    - Try accessing the site from a **different network**, such as a mobile hotspot.
+    - Alternative mirrors of the site may be available — check the Discord community for current mirror links.
+  </Accordion>
+</AccordionGroup>
+
+<Note>
+  Still stuck? Join the community Discord at [https://discord.gg/xksWyP9aJv](https://discord.gg/xksWyP9aJv) for real-time help from other players and the site maintainer.
+</Note>
